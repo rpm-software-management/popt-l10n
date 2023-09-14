@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # This file is put in the public domain.
 # Gustavo Costa <xfgusta@gmail.com>, 2021.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2021.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2021, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: popt 1.18\n"
 "Report-Msgid-Bugs-To: <rpm-maint@lists.rpm.org>\n"
 "POT-Creation-Date: 2022-09-16 10:04+0300\n"
-"PO-Revision-Date: 2021-07-10 16:04+0000\n"
+"PO-Revision-Date: 2023-09-14 11:11+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/popt/master/pt_BR/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 5.0.1\n"
 
 #: src/popt.c:46
 msgid "unknown errno"
@@ -33,7 +33,7 @@ msgstr "argumento faltando"
 
 #: src/popt.c:1640
 msgid "option does not take an argument"
-msgstr ""
+msgstr "a opção não aceita um argumento"
 
 #: src/popt.c:1642
 msgid "unknown option"
