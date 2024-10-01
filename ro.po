@@ -3,9 +3,8 @@ msgstr ""
 "Project-Id-Version: popt 1.11\n"
 "Report-Msgid-Bugs-To: <rpm-maint@lists.rpm.org>\n"
 "POT-Creation-Date: 2022-09-16 10:04+0300\n"
-"PO-Revision-Date: 2023-10-11 13:36+0000\n"
-"Last-Translator: Florentina Mușat <nightingale@users.noreply.translate."
-"fedoraproject.org>\n"
+"PO-Revision-Date: 2024-10-01 18:29+0000\n"
+"Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/popt/"
 "popt-l10n/ro/>\n"
 "Language: ro\n"
@@ -14,16 +13,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: src/popt.c:46
 msgid "unknown errno"
-msgstr "errno necunoscută"
+msgstr "errno necunoscut"
 
 #: src/popt.c:1200
-#, fuzzy, c-format
+#, c-format
 msgid "option type (%u) not implemented in popt\n"
-msgstr "optiunea de tipul (%d) nu este implementata in popt\n"
+msgstr "tipul de opțiune (%u) nu este implementat în «popt»\n"
 
 #: src/popt.c:1638
 msgid "missing argument"
@@ -31,7 +30,7 @@ msgstr "argument lipsă"
 
 #: src/popt.c:1640
 msgid "option does not take an argument"
-msgstr ""
+msgstr "opțiunea nu are un argument"
 
 #: src/popt.c:1642
 msgid "unknown option"
@@ -39,110 +38,108 @@ msgstr "opțiune necunoscută"
 
 #: src/popt.c:1644
 msgid "mutually exclusive logical operations requested"
-msgstr ""
+msgstr "s-au solicitat operații logice ce se exclud reciproc"
 
 #: src/popt.c:1646
 msgid "opt->arg should not be NULL"
-msgstr ""
+msgstr "opt->arg nu trebuie să fie NULL"
 
 #: src/popt.c:1648
 msgid "aliases nested too deeply"
-msgstr "recursivitate infinita la optiunile sinonime"
+msgstr "alias imbricate prea profund"
 
 #: src/popt.c:1650
-#, fuzzy
 msgid "error in parameter quoting"
-msgstr "eroare la insertie parametru"
+msgstr "eroare în citarea parametrilor"
 
 #: src/popt.c:1652
 msgid "invalid numeric value"
-msgstr "valoare numarica invalida"
+msgstr "valoare numerică nevalidă"
 
 #: src/popt.c:1654
 msgid "number too large or too small"
-msgstr "numar prea mare sau prea mic"
+msgstr "număr prea mare sau prea mic"
 
 #: src/popt.c:1656
 msgid "memory allocation failed"
-msgstr ""
+msgstr "alocarea memoriei a eșuat"
 
 #: src/popt.c:1658
 msgid "config file failed sanity test"
-msgstr ""
+msgstr "fișierul de configurare nu a trecut testul de corectitudine"
 
 #: src/popt.c:1662
 msgid "unknown error"
-msgstr "eroare necuinoscuta"
+msgstr "eroare necunoscută"
 
 #: src/popthelp.c:64 src/popthelp.c:72
 msgid "Show this help message"
-msgstr "Afisare mesaj de help"
+msgstr "Afișează acest mesaj de ajutor"
 
 #: src/popthelp.c:65 src/popthelp.c:73
 msgid "Display brief usage message"
-msgstr "Afisare mesaj sintaxa sumar"
+msgstr "Afișează un mesaj de utilizare succint"
 
 #: src/popthelp.c:76
-#, fuzzy
 msgid "Display option defaults in message"
-msgstr "Afisare mesaj sintaxa sumar"
+msgstr "Afișează valorile implicite ale opțiunilor în mesaj"
 
 #: src/popthelp.c:78
 msgid "Terminate options"
-msgstr ""
+msgstr "Terminarea opțiunilor"
 
 #: src/popthelp.c:170
 msgid "Help options:"
-msgstr ""
+msgstr "Opțiuni de ajutor:"
 
 #: src/popthelp.c:171
 msgid "Options implemented via popt alias/exec:"
-msgstr ""
+msgstr "Opțiuni implementate via popt alias/exec:"
 
 #: src/popthelp.c:179
 msgid "NONE"
-msgstr ""
+msgstr "NONE"
 
 #: src/popthelp.c:181
 msgid "VAL"
-msgstr ""
+msgstr "VAL"
 
 #: src/popthelp.c:185
 msgid "INT"
-msgstr ""
+msgstr "INT"
 
 #: src/popthelp.c:186
 msgid "SHORT"
-msgstr ""
+msgstr "SHORT"
 
 #: src/popthelp.c:187
 msgid "LONG"
-msgstr ""
+msgstr "LONG"
 
 #: src/popthelp.c:188
 msgid "LONGLONG"
-msgstr ""
+msgstr "LONGLONG"
 
 #: src/popthelp.c:189
 msgid "STRING"
-msgstr ""
+msgstr "STRING"
 
 #: src/popthelp.c:190
 msgid "FLOAT"
-msgstr ""
+msgstr "FLOAT"
 
 #: src/popthelp.c:191
 msgid "DOUBLE"
-msgstr ""
+msgstr "DOUBLE"
 
 #: src/popthelp.c:194
 msgid "ARG"
-msgstr ""
+msgstr "ARG"
 
 #: src/popthelp.c:615
 msgid "Usage:"
-msgstr "Sintaxa:"
+msgstr "Utilizare:"
 
 #: src/popthelp.c:640
 msgid "[OPTION...]"
-msgstr "[OPTIUNE...]"
+msgstr "[OPȚIUNE...]"
