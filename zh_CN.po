@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: popt 1.14\n"
 "Report-Msgid-Bugs-To: <rpm-maint@lists.rpm.org>\n"
 "POT-Creation-Date: 2022-09-16 10:04+0300\n"
-"PO-Revision-Date: 2023-12-10 10:44+0000\n"
-"Last-Translator: Jingge Chen <mariocanfly@hotmail.com>\n"
+"PO-Revision-Date: 2026-09-27 08:17+0000\n"
+"Last-Translator: Kung Kun <kun17.kung317@silomails.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/popt/popt-l10n/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.2.1\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: src/popt.c:46
 msgid "unknown errno"
@@ -43,7 +43,7 @@ msgstr "未知的选项"
 
 #: src/popt.c:1644
 msgid "mutually exclusive logical operations requested"
-msgstr "需要 XOR 逻辑运算"
+msgstr "请求的操作在逻辑上互斥"
 
 #: src/popt.c:1646
 msgid "opt->arg should not be NULL"
